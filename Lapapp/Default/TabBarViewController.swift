@@ -12,8 +12,22 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .red
+        viewControllers = [
+            createNavController(viewController: LeaguesViewController(), title: "Leagues", imageName: "sportscourt"),
+            createNavController(viewController: FavoritesViewController(), title: "Favorites", imageName: "star"),
+        ]
+//        setViewControllers(viewControllers, animated: false)
     }
+    
+    fileprivate func createNavController(viewController: UIViewController, title: String, imageName: String) -> UIViewController {
+          let navController = UINavigationController(rootViewController: viewController)
+          navController.navigationBar.prefersLargeTitles = true
+          viewController.navigationItem.title = title
+          viewController.view.backgroundColor = .systemBackground
+          navController.tabBarItem.title = title
+        navController.tabBarItem.image = UIImage(systemName: imageName)
+          return navController
+      }
     
 
     /*

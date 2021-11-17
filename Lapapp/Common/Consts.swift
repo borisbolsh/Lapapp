@@ -14,7 +14,7 @@ final class Consts {
     }
     
     enum Links {
-           static let footballBaseUrl = "football-data.org"
+           static let footballBaseUrl = "https://www.football-data.org"
     }
     
 }
