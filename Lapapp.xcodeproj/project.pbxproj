@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45435DFD274592EA009A0D34 /* LeaguesHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435DFC274592E9009A0D34 /* LeaguesHorizontalController.swift */; };
+		45435DFF274594F3009A0D34 /* LeaguesGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435DFE274594F3009A0D34 /* LeaguesGroupCell.swift */; };
+		45435E0127459D0A009A0D34 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E0027459D0A009A0D34 /* SectionHeader.swift */; };
+		45435E0327459D5C009A0D34 /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E0227459D5C009A0D34 /* FeaturedCell.swift */; };
+		45435E0527459D9E009A0D34 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E0427459D9E009A0D34 /* App.swift */; };
+		45435E0727459E28009A0D34 /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 45435E0627459E27009A0D34 /* appstore.json */; };
+		45435E0927459E63009A0D34 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E0827459E63009A0D34 /* Section.swift */; };
+		45435E0C27459F1A009A0D34 /* Bundle+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E0B27459F1A009A0D34 /* Bundle+decode.swift */; };
+		45435E0E2745A24F009A0D34 /* MediumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E0D2745A24F009A0D34 /* MediumTableCell.swift */; };
+		45435E102745A272009A0D34 /* SmallTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E0F2745A272009A0D34 /* SmallTableCell.swift */; };
 		4570042D27426DCB00824F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4570042C27426DCB00824F47 /* AppDelegate.swift */; };
 		4570042F27426DCB00824F47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4570042E27426DCB00824F47 /* SceneDelegate.swift */; };
 		4570043627426DCD00824F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4570043527426DCD00824F47 /* Assets.xcassets */; };
@@ -27,6 +37,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45435DFC274592E9009A0D34 /* LeaguesHorizontalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesHorizontalController.swift; sourceTree = "<group>"; };
+		45435DFE274594F3009A0D34 /* LeaguesGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesGroupCell.swift; sourceTree = "<group>"; };
+		45435E0027459D0A009A0D34 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		45435E0227459D5C009A0D34 /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
+		45435E0427459D9E009A0D34 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		45435E0627459E27009A0D34 /* appstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
+		45435E0827459E63009A0D34 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		45435E0B27459F1A009A0D34 /* Bundle+decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+decode.swift"; sourceTree = "<group>"; };
+		45435E0D2745A24F009A0D34 /* MediumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTableCell.swift; sourceTree = "<group>"; };
+		45435E0F2745A272009A0D34 /* SmallTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableCell.swift; sourceTree = "<group>"; };
 		4570042927426DCB00824F47 /* Lapapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lapapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4570042C27426DCB00824F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4570042E27426DCB00824F47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +79,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45435DFB274590AB009A0D34 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				45435DFE274594F3009A0D34 /* LeaguesGroupCell.swift */,
+				45435E0627459E27009A0D34 /* appstore.json */,
+				45435E0027459D0A009A0D34 /* SectionHeader.swift */,
+				45435E0227459D5C009A0D34 /* FeaturedCell.swift */,
+				45435E0427459D9E009A0D34 /* App.swift */,
+				45435E0827459E63009A0D34 /* Section.swift */,
+				45435E0D2745A24F009A0D34 /* MediumTableCell.swift */,
+				45435E0F2745A272009A0D34 /* SmallTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		45435E0A27459EB2009A0D34 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				45435E0B27459F1A009A0D34 /* Bundle+decode.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		45435E112745AA56009A0D34 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		4570042027426DCB00824F47 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +128,7 @@
 		4570042B27426DCB00824F47 /* Lapapp */ = {
 			isa = PBXGroup;
 			children = (
+				45435E0A27459EB2009A0D34 /* Extention */,
 				4570043A27426DCD00824F47 /* Info.plist */,
 				45D8E30027439281008C2136 /* Default */,
 				45FD3A932743E86D0033C68C /* Services */,
@@ -91,7 +142,9 @@
 		4575E6FC274439BA008896FF /* Leagues */ = {
 			isa = PBXGroup;
 			children = (
+				45435DFB274590AB009A0D34 /* Cells */,
 				4575E6FE27443A27008896FF /* LeaguesViewController.swift */,
+				45435DFC274592E9009A0D34 /* LeaguesHorizontalController.swift */,
 				4575E70427444175008896FF /* LeaguesConfigurator.swift */,
 				4575E70C274441F1008896FF /* LeaguesPresenter.swift */,
 				4575E7062744419D008896FF /* LeaguesInteractor.swift */,
@@ -123,8 +176,8 @@
 		45D8E2FF27438E4B008C2136 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4575E6FD274439C4008896FF /* Favorites */,
 				4575E6FC274439BA008896FF /* Leagues */,
+				4575E6FD274439C4008896FF /* Favorites */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -152,6 +205,7 @@
 		45FD3A932743E86D0033C68C /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				45435E112745AA56009A0D34 /* Networking */,
 				45FD3A942743EE150033C68C /* NetworkService.swift */,
 			);
 			path = Services;
@@ -223,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4570043927426DCD00824F47 /* LaunchScreen.storyboard in Resources */,
+				45435E0727459E28009A0D34 /* appstore.json in Resources */,
 				4570043627426DCD00824F47 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,18 +289,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45435DFD274592EA009A0D34 /* LeaguesHorizontalController.swift in Sources */,
 				4575E71127444235008896FF /* FavoritesRouter.swift in Sources */,
 				45D8E2FD27437AD8008C2136 /* TabBarViewController.swift in Sources */,
+				45435E0927459E63009A0D34 /* Section.swift in Sources */,
 				4575E7072744419D008896FF /* LeaguesInteractor.swift in Sources */,
 				4575E70B274441E2008896FF /* FavoritesPresenter.swift in Sources */,
+				45435E0327459D5C009A0D34 /* FeaturedCell.swift in Sources */,
 				4575E70527444175008896FF /* LeaguesConfigurator.swift in Sources */,
+				45435E102745A272009A0D34 /* SmallTableCell.swift in Sources */,
 				45D8E30327439B1F008C2136 /* Consts.swift in Sources */,
 				4575E70127443A3F008896FF /* FavoritesViewController.swift in Sources */,
 				4575E70D274441F1008896FF /* LeaguesPresenter.swift in Sources */,
 				4570042D27426DCB00824F47 /* AppDelegate.swift in Sources */,
 				4575E70327444162008896FF /* FavoritesConfigurator.swift in Sources */,
+				45435E0C27459F1A009A0D34 /* Bundle+decode.swift in Sources */,
 				4575E70F2744421D008896FF /* LeaguesRouter.swift in Sources */,
+				45435E0527459D9E009A0D34 /* App.swift in Sources */,
 				45FD3A952743EE150033C68C /* NetworkService.swift in Sources */,
+				45435DFF274594F3009A0D34 /* LeaguesGroupCell.swift in Sources */,
+				45435E0127459D0A009A0D34 /* SectionHeader.swift in Sources */,
+				45435E0E2745A24F009A0D34 /* MediumTableCell.swift in Sources */,
 				4570042F27426DCB00824F47 /* SceneDelegate.swift in Sources */,
 				4575E6FF27443A27008896FF /* LeaguesViewController.swift in Sources */,
 				4575E709274441AF008896FF /* FavoritesInteractor.swift in Sources */,

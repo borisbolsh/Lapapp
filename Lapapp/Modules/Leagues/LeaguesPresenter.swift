@@ -8,14 +8,15 @@
 import UIKit
 
 protocol LeaguesPresenterProtocol: AnyObject {
-    var router: LeaguesRouterProtocol! { set get }
+    var router: LeaguesRouterProtocol? { set get }
 }
 
 
 class LeaguesPresenter: LeaguesPresenterProtocol {
     
-    var interactor: LeaguesInteractorProtocol!
-    var router: LeaguesRouterProtocol!
+    weak var view: UIViewController?
+    var interactor: LeaguesInteractorProtocol?
+    var router: LeaguesRouterProtocol?
     
     
 }
